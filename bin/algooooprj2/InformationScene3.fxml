@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="348.0" prefWidth="608.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="algooooprj2.infoScene3">
+   <children>
+      <Label layoutX="63.0" layoutY="16.0" prefHeight="46.0" prefWidth="198.0" text="Match Information">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="35.0" layoutY="108.0" prefHeight="21.0" prefWidth="104.0" text="Player name 1 :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="TfName1" layoutX="139.0" layoutY="106.0" prefHeight="25.0" prefWidth="135.0" promptText="Name" />
+      <ComboBox fx:id="ComboPlayer1" layoutX="286.0" layoutY="106.0" prefHeight="25.0" prefWidth="66.0" />
+      <Label layoutX="35.0" layoutY="152.0" prefHeight="17.0" prefWidth="91.0" text="Who Start First" />
+      <ComboBox fx:id="comboWhoStartFirst" layoutX="139.0" layoutY="148.0" prefHeight="25.0" prefWidth="135.0" />
+      <Label layoutX="35.0" layoutY="195.0" prefHeight="17.0" prefWidth="91.0" text=" # of Matches" />
+      <TextField fx:id="tfNumberMatches" layoutX="139.0" layoutY="191.0" prefHeight="25.0" prefWidth="135.0" promptText="Number" />
+      <Button fx:id="StartMatch" layoutX="184.0" layoutY="234.0" mnemonicParsing="false" onAction="#startevent" prefHeight="25.0" prefWidth="205.0" text="Start Match" />
+   </children>
+</Pane>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="Paneeee" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="658.0" prefWidth="894.0" style="-fx-background-color: SKYBLUE;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="algooooprj2.SceneControl2">
+   <children>
+      <Line endX="-59.79998779296875" endY="353.5999755859375" layoutX="436.0" layoutY="172.0" startX="-59.79998779296875" startY="-76.39999389648438" strokeWidth="10.0" />
+      <Line endX="-59.79998779296875" endY="352.5999755859375" layoutX="585.0" layoutY="173.0" startX="-59.79998779296875" startY="-76.39999389648438" strokeWidth="10.0" />
+      <Label contentDisplay="CENTER" layoutX="358.0" layoutY="15.0" prefHeight="53.0" prefWidth="190.0" text="Tic Tac Toe ">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Line endX="211.60003662109375" endY="13.599990844726562" layoutX="462.0" layoutY="224.0" startX="-230.00001525878906" startY="13.599990844726562" strokeWidth="10.0" />
+      <Line endX="-275.5999755859375" endY="138.79998779296875" layoutX="503.0" layoutY="247.0" startX="170.79998779296875" startY="138.79998779296875" strokeWidth="10.0" />
+      <Label id="3" fx:id="L3" alignment="TOP_CENTER" layoutX="530.0" layoutY="94.0" onMouseClicked="#labelSetup" prefHeight="138.0" prefWidth="138.0">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+      <Label id="2" fx:id="L2" alignment="TOP_CENTER" layoutX="382.0" layoutY="94.0" onMouseClicked="#labelSetup" prefHeight="138.0" prefWidth="138.0">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+      <Label id="1" fx:id="L1" alignment="TOP_CENTER" layoutX="233.0" layoutY="94.0" onMouseClicked="#labelSetup" prefHeight="138.0" prefWidth="138.0">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+      <Label id="4" fx:id="L4" alignment="TOP_CENTER" layoutX="233.0" layoutY="243.0" onMouseClicked="#labelSetup" prefHeight="138.0" prefWidth="138.0">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+      <Label id="5" fx:id="L5" alignment="TOP_CENTER" layoutX="382.0" layoutY="243.0" onMouseClicked="#labelSetup" prefHeight="138.0" prefWidth="138.0">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+      <Label id="6" fx:id="L6" alignment="TOP_CENTER" layoutX="530.0" layoutY="243.0" onMouseClicked="#labelSetup" prefHeight="138.0" prefWidth="138.0">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+      <Label id="7" fx:id="L7" alignment="TOP_CENTER" layoutX="233.0" layoutY="391.0" onMouseClicked="#labelSetup" prefHeight="138.0" prefWidth="138.0" textAlignment="RIGHT">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+      <Label id="8" fx:id="L8" alignment="TOP_CENTER" layoutX="382.0" layoutY="391.0" onMouseClicked="#labelSetup" prefHeight="138.0" prefWidth="138.0">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+      <Label id="9" fx:id="L9" alignment="TOP_CENTER" layoutX="534.0" layoutY="391.0" onMouseClicked="#labelSetup" prefHeight="138.0" prefWidth="138.0">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="50.0" prefHeight="53.0" prefWidth="74.0" text="player Name :" />
+      <Label fx:id="playerName1" layoutX="123.0" layoutY="50.0" prefHeight="53.0" prefWidth="74.0" />
+      <Label layoutX="38.0" layoutY="94.0" prefHeight="31.0" prefWidth="48.0" text="Score :" />
+      <Label fx:id="Player1Score" layoutX="88.0" layoutY="94.0" prefHeight="31.0" prefWidth="48.0" />
+      <Label layoutX="720.0" layoutY="41.0" prefHeight="53.0" prefWidth="74.0" text="player Name :" />
+      <Label fx:id="PlayerName2" layoutX="806.0" layoutY="41.0" prefHeight="53.0" prefWidth="74.0" />
+      <Label layoutX="720.0" layoutY="88.0" prefHeight="31.0" prefWidth="48.0" text="Score :" />
+      <Label fx:id="Player2Score" layoutX="770.0" layoutY="88.0" prefHeight="31.0" prefWidth="48.0" />
+      <Label fx:id="currentround" layoutX="743.0" layoutY="562.0" prefHeight="35.0" prefWidth="16.0" text="z">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="755.0" layoutY="564.0" text="/">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="numberround" layoutX="764.0" layoutY="562.0" text="x">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="729.0" layoutY="7.0" text="Random" />
+   </children>
+</Pane>
